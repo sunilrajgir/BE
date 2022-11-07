@@ -1,4 +1,4 @@
-package come.oyo.demo.controller;
+package come.oyo.demo.student;
 
 import come.oyo.demo.student.Student;
 import org.springframework.web.bind.annotation.Mapping;
@@ -10,6 +10,7 @@ import java.util.List;
 
 
 @RestController
+@RequestMapping("/v1/student")
 public class studentController {
 
     @RequestMapping("/getStudents")
